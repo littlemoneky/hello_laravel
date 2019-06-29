@@ -17,4 +17,7 @@ Route::get('/', function () {
 Route::get('/user', function () {
     echo "123";
 });
+Route::get('/app',function () {
+   echo  "app";
+});
 
