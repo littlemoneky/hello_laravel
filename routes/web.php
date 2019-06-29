@@ -21,3 +21,7 @@ Route::get('/app',function () {
    echo  "app";
 });
 
+Route::get('/app-v2',function () {
+    echo  "app-2";
+});
+
