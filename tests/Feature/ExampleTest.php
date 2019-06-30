@@ -22,5 +22,6 @@ class ExampleTest extends TestCase
     public function testAppTest() {
         $response = $this ->get('/apps');
         $response->assertStatus(200);
+        //login
     }
 }
